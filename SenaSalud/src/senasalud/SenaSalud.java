@@ -24,6 +24,10 @@ public class SenaSalud {
   System.out.println("Ingrese su Edad");
   ed=edad.nextInt();
   
+  Scanner animal =new Scanner (System.in);
+  System.out.println("Cual es su animal favorito");
+  ani=animal.next();
+   
   
   
   
@@ -32,7 +36,7 @@ public class SenaSalud {
   System.out.println("Su nombre es:"+nom);
   System.out.println("Su Apellido es:"+ape);
   System.out.println("Su Edad es:"+ed);
- 
+ System.out.println("Su Animal favorito es:"+ani);
   
     }
     
