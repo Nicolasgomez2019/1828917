@@ -8,13 +8,31 @@ public class SenaSalud {
 
    
     public static void main(String[] args) {
-        String nom;
+        String nom, ape, ani;
+        int ed;
   Scanner nombre =new Scanner (System.in);
   System.out.println("Digite su Nombre");
   nom=nombre.next();
-  System.out.println("Su nombre es:"+nom);
+  
+   
+  Scanner apellido =new Scanner (System.in);
+  System.out.println("Digite su Apellido");
+  ape=apellido.next();
+  
                 
-              
+  Scanner edad =new Scanner (System.in);
+  System.out.println("Ingrese su Edad");
+  ed=edad.nextInt();
+  
+  
+  
+  
+  
+  
+  System.out.println("Su nombre es:"+nom);
+  System.out.println("Su Apellido es:"+ape);
+  System.out.println("Su Edad es:"+ed);
+ 
   
     }
     
